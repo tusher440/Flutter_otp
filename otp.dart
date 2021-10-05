@@ -123,14 +123,32 @@ class _OTPState extends State<OTP> {
                   fontSize: 12,
                 ),
               ),
-                // ignore: prefer_const_constructors
-                 Text("Or Try another email address",
-                  // ignore: prefer_const_constructors
-                  style: TextStyle(
+              // ignore: prefer_const_constructors
+                Row(
+                  children: const [
                     // ignore: prefer_const_constructors
-                    color: Color(0xffadaeaa),
-                    fontSize: 12,
-                  ),
+                    Padding(
+                      padding: EdgeInsets.only(left: 130),
+                      child: Text("Or",
+                        // ignore: prefer_const_constructors
+                        style: TextStyle(
+                          // ignore: prefer_const_constructors
+                          color: Color(0xffadaeaa),
+                          fontSize: 12,
+                        ),
+                      ),
+                    ),
+                    SizedBox(width: 2,),
+                    // ignore: prefer_const_constructors
+                    Text("Try another email address",
+                      // ignore: prefer_const_constructors
+                      style: TextStyle(
+                        // ignore: prefer_const_constructors
+                        color: Color(0xffd8e4d6),
+                        fontSize: 12,
+                      ),
+                    ),
+                  ],
                 ),
             ],
           ),
